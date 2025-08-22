@@ -1,0 +1,30 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+.vercel/
+.env
+.env.*.local
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+.venv/
+.envrc
+
+# Data & artifacts
+apps/rag-service/data/
+apps/rag-service/uploads/
+*.faiss
+*.faiss.meta.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
