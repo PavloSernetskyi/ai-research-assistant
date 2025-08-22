@@ -1,0 +1,19 @@
+# Core API framework
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# PDF processing
+pymupdf
+
+# Embeddings + ML
+torch
+sentence-transformers
+faiss-cpu
+numpy
+tqdm
+
+# Storage / cloud
+boto3
+requests
